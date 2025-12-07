@@ -2,12 +2,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
-    /* Background image settings */
-    background-image: url('images/sample.jpg'); /* path sa image */
-    background-size: cover;       /* para ma-full ang screen */
-    background-repeat: no-repeat; /* para hindi ma-ulit */
-    background-position: center;  /* i-center ang image */
-    height: 100vh;                /* full height ng screen */
-    color: white;                 /* text na kitang-kita sa background */
+    background: #f7f7f7;
 }
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
