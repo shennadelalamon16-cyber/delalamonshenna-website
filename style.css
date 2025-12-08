@@ -16,21 +16,13 @@ header {
 }
 
 /* Centered Medium Image */
-.center-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    margin: 20px 0;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.center-image img {
-    width: 50%;        /* Medium size */
-    max-width: 400px;  /* Prevent too big */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
+
+
 
 /* Content Section */
 .content {
