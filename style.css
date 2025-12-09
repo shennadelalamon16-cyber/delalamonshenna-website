@@ -37,3 +37,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+.center-image {
+    text-align: center; /* center horizontally */
+}
+
